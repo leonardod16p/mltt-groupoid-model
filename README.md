@@ -1,4 +1,4 @@
-# Formalizing The Groupoid Model in Martin-Löf Type Theory
+# Formalizing The Groupoid Model in Per Martin-Löf Type Theory
 
 > Work in Progress: This project is currently under active development.
 
