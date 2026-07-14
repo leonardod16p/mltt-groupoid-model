@@ -14,7 +14,7 @@ One key pedagogical aspect of this project is that it explicitly contrasts two d
 
 ### Groupoid Structure
 A groupoid is a category in which every morphism has an inverse. To prove that the identity type has the same structure as a groupoid, we need to show that symmetry, transitivity, and associativity hold.
-However, inspired by Hofmann and Streicher's model, this formalization goes a step further. Because we are working in a system without proof irrelevance, the proofs themselves become mathematical objects. Therefore, this repository also constructs "proofs about proofs" (paths between paths). It includes formalizations showing that the inverse of an inverse is the original path (sym-sym), and the cancellation of inverses (trans-right-inv, trans-left-inv).
+However, inspired by Hofmann and Streicher's model, this formalization goes a step further. Because we are working in a system with proof relevance, the proofs themselves become mathematical objects. Therefore, this repository also constructs "proofs about proofs" (paths between paths). It includes formalizations showing that the inverse of an inverse is the original path (sym-sym), and the cancellation of inverses (trans-right-inv, trans-left-inv).
 
 ### The Role of Proof Assistants (Bridging Math and Computation)
 Why does this technology matter? The use of proof assistants like Agda suggests a profound change in how mathematics can be done, realizing Per Martin-Löf's dream of eliminating the barrier between constructive mathematics and computer programming.
